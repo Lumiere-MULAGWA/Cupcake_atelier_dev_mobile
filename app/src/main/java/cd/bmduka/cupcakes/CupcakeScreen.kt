@@ -173,6 +173,8 @@ private fun cancelOrderAndNavigateToStart(
 ) {
     viewModel.resetOrder()
     navController.popBackStack(CupcakeScreen.Start.name, inclusive = false)
+
+    //commentaire initule
 }
 
 /**
